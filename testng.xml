@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="AssignmentProject.Qualicoach.EditUser"/>
+      <class name="AssignmentProject.Qualicoach.HomePage"/>
+      <class name="AssignmentProject.Qualicoach.DeleteUser"/>
+      <class name="AssignmentProject.Qualicoach.AppTest"/>
+      <class name="AssignmentProject.Qualicoach.Download"/>
+      <class name="AssignmentProject.Qualicoach.CreateCourse"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

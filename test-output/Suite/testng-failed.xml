@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test3(failed)">
+    <classes>
+      <class name="AssignmentProject.Qualicoach.HomePage">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AssignmentProject.Qualicoach.HomePage -->
+      <class name="AssignmentProject.Qualicoach.validateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="Initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AssignmentProject.Qualicoach.validateTitle -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
